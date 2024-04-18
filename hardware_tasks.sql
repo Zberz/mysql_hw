@@ -13,7 +13,7 @@ WHERE title LIKE '%Монитор%';
 SELECT title, price
 FROM hardware
 WHERE title LIKE '%Клавиатура%'
-ORDER BY price;
+ORDER BY price ASC;
 -- 5.
 SELECT COUNT(*) AS totalitems, tag
 FROM hardware
@@ -34,7 +34,7 @@ LIMIT 1;
 INSERT INTO hardware (title, price, amount, tag)
 VALUES ('Ноутбук Lenovo 2BXKQ7E9XD', 54500, 1, 'new');
 -- 9.
-DELETE FROM hardware WHERE title = 'Очки PS VR 2';
+DELETE FROM hardware WHERE id = 18;
 
 
 
