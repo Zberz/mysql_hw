@@ -34,7 +34,7 @@ LIMIT 1;
 INSERT INTO hardware (title, price, amount, tag)
 VALUES ('Ноутбук Lenovo 2BXKQ7E9XD', 54500, 1, 'new');
 -- 9.
-DELETE FROM hardware WHERE id and title = '18' 'Очки PS VR 2';
+DELETE FROM hardware WHERE id = '18';
 
 
 
